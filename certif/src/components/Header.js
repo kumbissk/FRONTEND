@@ -11,9 +11,9 @@ const Header = () => {
                 <img src={"/images/logoHeader.png"} alt="logoHeader" />
             </Brand>
             <Nav>
-                <a href='Accueil'>Accueil</a>
-                <a href='Nos services'>Nos services</a>
-                <a href='A propos'>A propos</a>
+                <a href='/'>Accueil</a>
+                <a href='/'>Nos services</a>
+                <a href='/'>A propos</a>
                 <a href='Contact'>Contact</a>
             </Nav>
             <Search>
@@ -99,7 +99,7 @@ const Search = styled.div`
 const LogIn = styled.div`
     width: 181px;
     height: 18.47px;
-    margin-left: 1385px;
+    margin-left: 1345px;
     
     div{
         box-sizing: border-box;
@@ -127,7 +127,7 @@ const LogIn = styled.div`
 const SingUp = styled.div`
     width: 129px;
     height: 42.21px;
-    margin-left: 1525px;
+    margin-left: 1475px;
 
     div{
         box-sizing: border-box;
