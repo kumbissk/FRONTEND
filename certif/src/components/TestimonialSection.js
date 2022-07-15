@@ -92,4 +92,4 @@ const ContentTwo = styled.div``;
 const ContentThree = styled.div``;
 
 
-export default TestimonialSection
+export default TestimonialSection;

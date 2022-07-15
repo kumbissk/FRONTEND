@@ -8,6 +8,5 @@ const StartSection = () => {
   );
 }
 
-<p className='quote'><img src='/images/GV.png' alt='GV'/></p>
 
 export default StartSection;
