@@ -29,7 +29,6 @@ const Wrapper = styled.div`
         width: 648px;
         height: 73px;
         margin-left: 596px;
-        // margin-top: 20px;
         padding-top: 30px;
         font-family: 'Epilogue';
         font-style: normal;
@@ -67,7 +66,6 @@ const ContentOne = styled.div`
         margin-left: 178px;
         margin-top: 129px;
         padding-top: 110px;
-        // margin-top: -80px;
     }
     
     div img {
@@ -86,8 +84,8 @@ const ContentOne = styled.div`
         height: 100px;
         margin-left: 27px;
         padding-top: 30px;
-        // margin-top: 30px;
-    }`;
+    }
+`;
 
 const ContentTwo = styled.div``;
 
