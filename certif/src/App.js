@@ -1,3 +1,4 @@
+import FooterSection from "./components/FooterSection";
 import Header from "./components/Header";
 import HomeSection from "./components/HomeSection";
 import StartSection from "./components/StartSection";
@@ -10,6 +11,7 @@ function App() {
       <HomeSection />
       <TestimonialSection />
       <StartSection />
+      <FooterSection />
     </div>
   );
 }

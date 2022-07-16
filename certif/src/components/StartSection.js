@@ -4,14 +4,14 @@ import styled from 'styled-components';
 const StartSection = () => {
   return (
     <Wrapper>
-      <ContentSection> 
+      <SectionSecond> 
         <img src='/images/Start_Picture.png' alt='StartPicture'/>
         <h6>Alors qu’attendez-vous<br/>pour commencer votre <br/>expérience d’expédition  ?</h6>
         <div>
           <p>Commencer maintenant</p>
           <p><i class="fa-solid fa-arrow-right"></i></p>
         </div>
-      </ContentSection>
+      </SectionSecond>
     </Wrapper>
   );
 }
@@ -21,14 +21,14 @@ const Wrapper = styled.div`
   height: 745px;
   // margin-left: 220px;
   // margin-top: 4788px;
-  // background: #FFFFFF;
+  background: #FFFFFF;
 `;
 
-const ContentSection = styled.div`
+const SectionSecond = styled.div`
   width: 1316px;
   height: 541px;
   margin-left: 62px;
-  baground-image: linear-gradient(90deg, #FFFFFF 10.18%, rgba(22, 70, 194, 0) 100%, #1646C2 100%);
+  baground: linear-gradient(90deg, #FFFFFF 10.18%, rgba(22, 70, 194, 0) 100%, #1646C2 100%);
   // margin-top: 4853px;
   
   
