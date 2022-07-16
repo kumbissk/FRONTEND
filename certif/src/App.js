@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import HomeSection from "./components/HomeSection";
+import StartSection from "./components/StartSection";
 import TestimonialSection from "./components/TestimonialSection";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <HomeSection />
       <TestimonialSection />
+      <StartSection />
     </div>
   );
 }
