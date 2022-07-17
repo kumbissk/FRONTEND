@@ -91,8 +91,6 @@ const FooterSection = () => {
 const Wrapper = styled.div`
 width: 1905px;
 height: 645px;
-// margin-left: 0px;
-// margin-top: 10px;
 background: #EFF1F5;`;
 
 const TextContent = styled.div`
@@ -328,6 +326,7 @@ const ContentSocial = styled.div`
         height: 46px;
         margin-left: 18px;
         margin-top: -25px;
+        color: #292D31;
     }
 
 `;
