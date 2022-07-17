@@ -345,6 +345,7 @@ const Note = styled.div`
         font-size: 20px;
         line-height: 20px;
         color: #000000;
-    }`;
+    }
+`;
 
 export default FooterSection;
