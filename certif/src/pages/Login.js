@@ -55,19 +55,25 @@ const Login = () => {
             </div>
             <div className="form-group6">
               <label HtmlFor="exampleInputPays">Pays</label>
-              <select class="form-select" aria-label="Default select example" name='pays' id='pays-select'>
-                <option selected>--Choisissez le pays--</option>
-                <option value="Senegal">Senegal</option>
-                <option value="Mali">Mali</option>
-                <option value="Benin">Benin</option>
-              </select>
-              <label HtmlFor="exampleInputPays">Region</label>
-              <select class="form-select" aria-label="Default select example" name='region' id='region-select'>
-                <option selected>--Selectionne la region--</option>
-                <option value="Dakar">Dakar</option>
-                <option value="Mali">Mali</option>
-                <option value="Benin">Benin</option>
-              </select>
+              <div className='SelectPays'>
+                <select class="form-select" aria-label="Default select example" name='pays' id='pays-select'>
+                  <option selected>--Choisissez le pays--</option>
+                  <option value="Senegal">Senegal</option>
+                  <option value="Mali">Mali</option>
+                  <option value="Benin">Benin</option>
+                </select>
+              </div>
+              <div className='title'>
+                <label HtmlFor="exampleInputPays">Region</label>
+              </div>
+              <div className='SelectRegion'>
+                <select class="form-select" aria-label="Default select example" name='region' id='region-select'>
+                  <option selected>--Selectionne la region--</option>
+                  <option value="Dakar">Dakar</option>
+                  <option value="Mali">Mali</option>
+                  <option value="Benin">Benin</option>
+                </select>
+              </div>
               <div className='CodePostal'>
                 <label HtmlFor="exampleInputCodePostal">Code postal</label>
                 <input type="text" className="form-control" id="exampleInputCodePostal" aria-describedby="emailHelp" placeholder="Code postal"/>
@@ -80,10 +86,10 @@ const Login = () => {
           </form>
          </ContentForm>
          <FooterForm>
-            <div className='button1'>
+            <div className='One'>
               <button type="submit">Creer un compte</button>
             </div>
-            <div className='button2'>
+            <div className='buttonTwo'>
               <button type="submit">Effacer</button>
             </div>
          </FooterForm>
@@ -94,10 +100,10 @@ const Login = () => {
 
 const Wrapper = styled.div`
   width: 1049px;
-  // height: 0900px;
-  height: 1296px;
+  height: 1096px;
   margin-left:372px;
-  margin-top:110px;`;
+  margin-top:110px;
+  // baground-color: #F6F7FA;`;
 
 const HeaderForm = styled.div`
   width: 1049px;
@@ -162,7 +168,7 @@ form div.form-group2 label {
 }
 
 div select.form-select{
-  width: 200px;
+  width: 232px;
   height: 48px;
   background: #FFFFFF;
   border: 0.5px solid rgba(0, 0, 0, 0.5);
@@ -180,12 +186,12 @@ form div.form-group2 input[type="text"]{
 }
 
 form div.form-group2 div{
-  margin-left: 210px;
+  margin-left: 240px;
   margin-top: -87px;
 }
 
 form div.form-group2 div.para{
-  margin-left: 540px;
+  margin-left: 570px;
 }
 
 form div.form-group3 label{
@@ -286,21 +292,110 @@ form div.form-group6 label{
   color: #292D31;
 }
 
-form div.form-group6 input[type="text"]{}
-
 form div.form-group6 div.CodePostal input[type="text"]{
-  width: 178px;
-  height: 21px;
+  width: 230px;
+  height: 50px;
   margin-left: 70px;
   margin-top: 20px;
   background: #FFFFFF;
   border: 0.5px solid rgba(0, 0, 0, 0.5);
 }
 
+form div.form-group6 div.title{
+  margin-left:246px;
+  margin-top: -151px;
+}
+
+div.SelectRegion select{
+  margin-left: 315px;
+}
+
+form div.form-group6 div.CodePostal{
+  margin-left: 489px;
+  margin-top: -132px;
+}
+
+form div.form-group7{
+  margin-top: -20px;
+}
+
+form div.form-group7 label{
+  width: 215pxpx;
+  height: 21px;
+  margin-left: 18px;
+  // margin-top: -25px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #292D31;
+}
+
+form div.form-group7 input[type="checkbox"]{
+  width: 34px;
+  height: 25px;
+  margin-left: 70px;
+  margin-top: 40px;
+  background: #EFF1F5;
+  border: 1px solid #FFFFFF;
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+
 
 
 `;
 
-const FooterForm = styled.div``;
+const FooterForm = styled.div`
+  width: 1049px;
+  height: 109px;
+  margin-top: 30px;
+  background: #F2A401;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  div.One {
+    margin-left: 68px;
+    padding-top: 25px;
+  }
+
+  div.One button[type="submit"]{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #292D31;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 233px;
+    height: 56px;
+    cursor: pointer;
+  }
+
+  div.buttonTwo {
+    margin-left: 328px;
+    margin-top: -55px;
+  }
+
+  div.buttonTwo button[type="submit"]{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #292D31;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 233px;
+    height: 56px;
+    cursor: pointer;
+  }
+
+`;
 
 export default Login;
