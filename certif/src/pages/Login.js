@@ -102,8 +102,7 @@ const Wrapper = styled.div`
   width: 1049px;
   height: 1096px;
   margin-left:372px;
-  margin-top:110px;
-  // baground-color: #F6F7FA;`;
+  margin-top:110px;`;
 
 const HeaderForm = styled.div`
   width: 1049px;
@@ -138,21 +137,6 @@ form div.form-group1 label{
   line-height: 20px;
   color: #292D31;
 }
-
-// form div.form-groupe1 input[type="radio"]{
-//   -webkit-appearance:none;
-//   width: 20px;
-//   height: 20px;
-//   background: #FFFFFF;
-//   border: 2px solid #E7EAF0;
-// }
-
-// form div.form-groupe1 input[type="radio"]:checked{
-//   -webkit-appearance:radio;
-//   width: 16px;
-//   height: 16px;
-//   background: #F2A401;
-// }
 
 form div.form-group2 label {
   width: 153px;
@@ -342,9 +326,6 @@ form div.form-group7 input[type="checkbox"]{
   // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
 }
-
-
-
 `;
 
 const FooterForm = styled.div`
