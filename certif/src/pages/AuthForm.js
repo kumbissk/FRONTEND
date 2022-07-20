@@ -169,6 +169,6 @@ const FooterForm = styled.div`
       width: 333px;
       height: 56px;
       cursor: pointer;
-    }`;
+}`;
 
 export default AuthForm;
